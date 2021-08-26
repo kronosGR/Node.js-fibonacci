@@ -5,7 +5,7 @@
 // install express-generator
 npm install express-generator
 
-//  express Setup
+//  express Setup with Handlebars template engine
 npx express --view=hbs --git .
 
 // uninstall express-generator
