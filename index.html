@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>Georgios Katsanakis (aka Kronos)</title>
+    <script src="js/index.js" type="module""></script>
+  </head>
+  <body>
+    <header id="home">
+      <div>
+        <div><a href="index.html" class="yellow logo">GK</a></div>
+        <label for="menu">
+          <img src="/images/menu.png" />
+        </label>
+        <input type="checkbox" id="menu" name="menu" />
+        <nav>
+          <ul>
+            <li><a href="#page1" id="menu-home" class="selected">Home</a></li>
+            <li><a href="#page2" id="menu-about">About</a></li>
+            <li><a href="#page3" id="menu-projects">Projects</a></li>
+            <li><a href="#page4" id="menu-contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Page 1 -->
+      <section class="page" id="page1">
+        <h1><q>I love to create and to solve problems</q></h1>
+        <div class="circle"></div>
+      </section>
+      <a href="#" class="next"><img src="/images/next.svg" alt="next page" /></a>
+
+      <!-- Page 2 -->
+      <section class="page" id="page2">
+        <h2>
+          I am Georgios Katsanakis and I am studying Front-end Development at Noroff
+          school of technology
+        </h2>
+        <img src="/images/developer.svg" alt="developer picture" class="developer" />
+        <div>
+          <a href="https://github.com/kronosGR" target="_blank">
+            <img src="images/github.svg" alt="github link" class="profiles" />
+          </a>
+          <a href="https://www.linkedin.com/in/kronosgr/" target="_blank">
+            <img src="images/linkedin.svg" alt="linkedin link" class="profiles white--bg" />
+          </a>
+        </div>
+        <div class="circle circle2"></div>
+      </section>
+
+      <!-- Page 3 -->
+      <section class="page" id="page3">
+        <div>
+          <h2>Projects</h2>
+          <div class="projects-container">
+            <div class="slide">
+              <img src="/images/js-world-300.jpg" alt="JS World project" class="slide" />
+              <div class="hidden">
+                <h3>JS World</h3>
+                <p>
+                  A JavaScript blog with tutorials. 
+                  Uses headless CMS and API.
+                </p>
+                <p>
+                  <b>Technologies:</b></p>
+                <div>
+                  <img src="images/html.svg" alt="html used" />
+                  <img src="images/css.svg" alt="css used" />
+                  <img src="images/js.svg" alt="javascript used" />
+                  <img src="images/wp.png" alt="wp used" />
+                </div>
+                <a href="https://jsw.kronosgr.net/" target="_blank" class="cta info">
+                  Visit
+                </a>
+                <a href="" class="cta info" id="jsw-info" >
+                  Info
+                </a>
+              </div>
+              <div id="jsw-report" class="report-container jsw-cont">
+                <span class="cta close jsw">X</span>
+                <div class="report">
+                  <h4>JS World</h4>
+                  <p>
+                    JavaScript World is a blog website with JavaScript tutorials. It Uses
+                    HTML, CSS, JavaScript and Wordpress. Wordpress installation is headless
+                    and is used to provide data through API
+                  </p>
+                  <p class="report-features">
+                    <h5>Features:</h5>
+                    <ul>
+                      <li>Responsive Web Design</li>
+                      <li>Front Page Carousel with automatic rotation</li>
+                      <li>Disable carousel rotation</li>
+                      <li>List of Tutorials</li>
+                      <li>Tutorial Details</li>                      
+                      <li>Search Tutorials</li>
+                      <li>Contact with saving the details on MySQL</li>                      
+                      <li>Create Users</li>
+                      <li>Update user information</li>
+                      <li>Post/Delete Comments</li>
+                    </ul>
+                  </p>
+                  <p>
+                    <h5>Changes:</h5>
+                    <ul>
+                      <li>Added dates at tutorials page so the user can know if it is a new or an old tutorial</li>
+                      <li>Added Sort functionality at tutorials page. The user can sort the posts
+                        by date asc/desc and title asc/desc. It is useful for the user for better browsing the tutorials
+                      </li>
+                      <li>Added Filter functionality at the tutorials page on the already
+                        fetched results. Removes the posts that does not contain the keyword
+                        the user searched. Very good for the user to find a tutorial that contains a specific keyword
+                      </li>
+                    </ul>
+                  </p>
+                  <div>
+                    <a href="https://jsw.kronosgr.net/" target="_blank" class="cta">Visit</a>
+                    <a href="https://github.com/kronosGR/JSWorld" target="_blank" class="cta">Github</a>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="slide">
+              <img
+                src="/images/csm_300.jpg"
+                alt="Community Science museum project"
+                class="slide"
+              />
+              <div class="hidden">
+                <h3>CSM</h3>
+                <p>
+                  Science Museum website.
+                </p>
+                <p><b>Technologies:</b></p>
+                <div>
+                  <img src="images/html.svg" alt="html used" />
+                  <img src="images/css.svg" alt="css used" />
+                  <img src="images/js.svg" alt="javascript used" />
+                </div>
+                <a href="https://csm.kronosgr.net" target="_blank" class="cta info">
+                  Visit
+                </a>
+                <a href="" class="cta info" id="csm-info">
+                  Info
+                </a>
+              </div>
+              <div id="jsw-report" class="report-container csm-cont">
+                <span class="cta close csm">X</span>
+                <div class="report">
+                  <h4>Community Science Museum</h4>
+                  <p>
+                    Community Science Museum is a science museum website. It uses HTML, CSS and JS only for contact form 
+                    validation.
+                  </p>
+                  <p class="report-features">
+                    <h5>Features:</h5>
+                    <ul>
+                      <li>Responsive Web Design</li>
+                      <li>Contact form validation</li>
+                      <li>Contact form saves the messages to MySQL database through WP API</li>
+                    </ul>
+                  </p>
+                  <p>
+                    <h5>Changes:</h5>
+                    <ul>
+                      <li>Fixed readability problems by darkening the background color and increasing the font size. Text was difficult
+                        to read and somehow was creating problem to the eyes after a while.
+                      </li>
+                      <li>Left aligned the paragraphs to help scalability and each line starts from the same axis. This helps the users
+                        eyes following the text.
+                      </li>
+                      <li>Added JavaScript validation to the contact form. This feature was added to give immediately feedback to the user
+                        when he/she enters the information needed. Makes his experience better and avoiding entering information that is
+                          not needed. The feedback is shown at the bottom of the screen like an Android Toast message, and disappears after a while.
+                          It has different background colors from the site, so it will attract the users attention and notice the messages. Red for
+                          error and green for send confirmation.
+                      </li>
+                      <li>Contact form saves the messages to database through WP API. This features is useful for the site administrators/owners
+                        but also for the user to have a way to communicate fast.
+                      </li>
+                    </ul>
+                  </p>
+                  <div>
+                    <a href="https://csm.kronosgr.net" target="_blank" class="cta">Visit</a>
+                    <a href="https://github.com/kronosGR/CSM" target="_blank" class="cta">Github</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="/images/game-hub-300.jpg" alt="Game hub project" class="slide" />
+              <div class="hidden">
+                <h3>Game Hub</h3>
+                <p>
+                  Online store. Headless CMS, API and Local Storage.
+                </p>
+                <p><b>Technologies:</b></p>
+                <div>
+                  <img src="images/html.svg" alt="html used" />
+                  <img src="images/css.svg" alt="css used" />
+                  <img src="images/js.svg" alt="javascript used" />
+                  <img src="images/wp.png" alt="wp used" />                
+                </div>                  
+                <a href="https://gamehub.kronosgr.net/" target="_blank" class="cta info">
+                  Visit
+                </a>
+                <a href="" class="cta info" id="gh-info" >
+                  Info
+                </a>
+              </div>
+              <div id="jsw-report" class="report-container gh-cont">
+                <span class="cta close gh">X</span>
+                <div class="report">
+                  <h4>Gamehub</h4>
+                  <p>
+                    GameHub is an online store with PC games. It uses HMTL, CSS, JS and Wordpress as a headless CMS. 
+                    It is used serve the games through API and save the messages from the contact form to MySQL database.
+                  </p>
+                  <p class="report-features">
+                    <h5>Features:</h5>
+                    <ul>
+                      <li>Responsive Web Design</li>
+                      <li>Headless CMS</li>
+                      <li>Save messages to the Database</li>
+                      <li>List of Games</li>
+                      <li>Game Details</li>                      
+                      <li>Search Games</li>
+                      <li>Game Categories that are shown dynamically</li>                      
+                      <li>Shopping Cart</li>
+                      <li>Check out process</li>
+                      <li>Account Management simulation with localstorage:</li>
+                      <ul class="sub--ul">
+                        <li>Register/Login user</li>
+                        <li>Update Account Settings</li>
+                        <li>Update User information</li>
+                        <li>Order history</li>
+                      </ul>
+                    </ul>
+                  </p>
+                  <p>
+                    <h5>Changes:</h5>
+                    <ul>
+                      <li>System Requirements has a different background color so it looks that it does not belong to
+                        the main section and confuses the user.
+                      </li>
+                      <li>At the contact form changed the user's feedback for better experience. Message with green text
+                         below the "SEND" button and clearing the form.
+                      </li>
+                      <li>Toggles button state at the contact form according to the form validation with JS. This way the user
+                        will not try to press it while there are missing information in the form. The button also changes colors
+                        while disabled for better user feedback.
+                      </li>
+                      <li>Saves the messages from the contact form to the database for faster user communication with the 
+                        site's administrators.
+                      </li>
+                      <li>Fixed the error at the HTML that it was showing [object object]. Not good to have errors while the
+                        website is live.
+                      </li>
+                    </ul>
+                  </p>
+                 
+                  <div>
+                    <a href="https://gamehub.kronosgr.net/" target="_blank" class="cta">Visit</a>
+                    <a href="https://github.com/kronosGR/GameHub" target="_blank" class="cta">Github</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Page 4 -->
+      <section class="page" id="page4">
+        <div>
+          <h2>Contact</h2>
+          <form>
+            <input type="text" placeholder="Name *" id="name" />
+            <input type="email" placeholder="E-mail *"  id="email"/>
+            <textarea placeholder="Message *" id="message"></textarea>
+            <button type="submit">Send</button>
+          </form>
+          <div>
+            <a href="https://github.com/kronosGR" target="_blank">
+              <img src="images/github.svg" alt="github link" />
+            </a>
+            <a href="https://www.linkedin.com/in/kronosgr/" target="_blank">
+              <img src="images/linkedin.svg" alt="linkedin link" class="white--bg"/>
+            </a>
+          </div>
+        </div>
+        <div class="circle circle4"></div>
+      </section>
+      <a href="#" class="top"><img src="/images/top.svg" /></a>
+    </main>
+    <footer>
+      <p>Copyright © 2021 Georgios Katsanakis</p>
+    </footer>
+  </body>
+</html>
