@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "DEBUG=fibonacci:* nodemon ./bin/www"
+    "start": "DEBUG=fibonacci:* nodemon ./bin/www",
+    "server": "SERVERPORT=3002 nodemon ./fiboserver"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
